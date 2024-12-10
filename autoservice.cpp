@@ -18,7 +18,6 @@ bool AutoService::vehicleExists(const string& licensePlate) const {
 }
 
 void AutoService::loadHistory() {
-	cout << "Service History" << endl;
     try
     {
         ifstream file("service_history.txt");
@@ -57,7 +56,6 @@ void AutoService::loadHistory() {
                             Vehicle vehicle(licensePlate, owner, model);
                             addVehicle(vehicle);
                         }
-                        cout << "Service History loaded for - " << licensePlate << endl;
                         licensePlate = "";
                         owner = "";
                         model = "";
@@ -74,7 +72,6 @@ void AutoService::loadHistory() {
 						double price = stod(line.substr(endPos + 1));
 						Service service(name, price);
 						addServiceToVehicle(licensePlate, service);
-						cout << "Service " << name << " added to " << licensePlate << endl;
                     }
                 }
             }

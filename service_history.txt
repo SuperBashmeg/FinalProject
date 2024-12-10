@@ -1,7 +1,7 @@
-License Plate: BABA
-Owner: BABA
-Model: BABA
+License Plate: AB1234CB
+Owner: Chesnok
+Model: Tesla-X
 Service History:
-,HElo,1000
-,Lol,15000
+,Engine Repair,15000
+,Wheel Change,1000
 --------------------------
