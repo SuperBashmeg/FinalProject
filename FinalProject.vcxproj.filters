@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{f8682877-d36c-4cc5-8da9-9469c5668b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{43ce04a7-0292-4d09-9d78-4b7a252f3004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c615ef21-fef3-4288-afa0-beb82a4215db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="service_history.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="autoservice.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="History.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoService.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="History.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

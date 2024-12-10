@@ -1,0 +1,7 @@
+License Plate: BABA
+Owner: BABA
+Model: BABA
+Service History:
+,HElo,1000
+,Lol,15000
+--------------------------
